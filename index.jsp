@@ -16,20 +16,20 @@
 
         <FORM NAME="form1" METHOD="POST">
             <INPUT TYPE="HIDDEN" NAME="buttonName">
-            <INPUT TYPE="BUTTON" VALUE="Button 1" ONCLICK="button1()">
-            <INPUT TYPE="BUTTON" VALUE="Button 2" ONCLICK="button2()">
+            <INPUT TYPE="BUTTON" VALUE="Wrong" ONCLICK="button1()">
+            <INPUT TYPE="BUTTON" VALUE="Right" ONCLICK="button2()">
         </FORM>
 
         <SCRIPT LANGUAGE="JavaScript">
             <!--
             function button1()
             {
-                document.form1.buttonName.value = "button 1"
+                document.form1.buttonName.value = "Wrong button - we all died :("
                 form1.submit()
             }    
             function button2()
             {
-                document.form1.buttonName.value = "button 2"
+                document.form1.buttonName.value = "Right button - you saved the world!!!!!"
                 form1.submit()
             }    
             // --> 
